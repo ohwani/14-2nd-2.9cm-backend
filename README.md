@@ -74,7 +74,16 @@ Feature/feacture1 : 기능 개발을 진행할 때 사용합니다.
   - \[문자 인증 확인 및 유저 상세정보 저장] POST /user/details
 
 - 김영환
-  - 장성하세요
+  - \[상품 상세조희] GET /store/<product_id>
+  - \[상품 리뷰 등록] POST /store/<product_id>
+  - \[상품 리뷰 조회] GET /store/<product_id>
+  - \[상품 리뷰 삭제] DELETE /store/<product_id>
+  - \[장바구니 등록,수령변경] POST /order/cart
+  - \[장바구니 조회] GET /order/cart
+  - \[장바구니 삭제] DELETE /order/cart
+  
+  
+  
 
 ## 레퍼런스
 - 이 프로젝트는 [29CM](https://www.29cm.co.kr/home/) 사이트를 참조하여 학습목적으로 만들었습니다.
